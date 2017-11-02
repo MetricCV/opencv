@@ -1,0 +1,5 @@
+sudo nvpmodel -m 0
+sudo ./jetson_clocks.sh
+
+cd build
+make -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local/opencv-3.3 -D CUDA_FAST_MATH=1 -D WITH_QT=4 -D WITH_FFMPEG=OFF -D -WITH_GSTREAMER=ON ..
