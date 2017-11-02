@@ -1,5 +1,17 @@
 ## OpenCV: Open Source Computer Vision Library
 
+Enabled for Jetson TX1/TX2
+
+RTSP TRANSPORT DEFAULT TCP
+
+change to udp, edit line 2593 from:
+
+modules/videoio/src/cap_ffmpeg_impl.hpp
+
+
+
+
+
 ### Resources
 
 * Homepage: <http://opencv.org>
